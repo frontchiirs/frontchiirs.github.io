@@ -1,0 +1,72 @@
+baseurl: "https://frontchiirs.github.io/"
+title: "UnExplored FrontCHIIRs"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "UnExplored FrontCHIIRs"
+  Description: "A Workshop Exploring Future Directions for Information Access"
+  Date: "March 10"
+  Venue: "CHIIR 2024"
+  Address: "Halifax Hall"
+  City:  "Sheffield"
+  #Images: ["/img/badge.jpg"]
+  #GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    # - location
+   # - speakers
+    - schedule
+    #- sponsors
+    - partners
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    schedule: "Schedule"
+    partners: "Organizers"
+    # sponsors: "Sponsors"
+    # partners: "Partners"
+    # contact: "Contact"
+
+
+  # List of Sponsors
+  # Sponsors:
+  #   - name: "Hugo"
+  #     logo: "/img/hugo.png"
+  #     url: "http://gohugo.io"
+
+  # # List of Partners
+  Partners:
+    - name: "Adam Roegiest"
+      logo: "/img/roegiest.jpeg"
+      url: "https://roegiest.com"
+    - name: "Johanne Trippas"
+      logo: "/img/trippas.jpeg"
+      url: "https://www.johannetrippas.com/"
+
+  # The entire schedule
+  Schedule:
+    - name: "Opening / Introductions"
+      time: "9h00"
+
+    - presentation:
+        title: "Part I"
+        description: "Speed dating for ideas: Participants pair up and have a short conversation about their ideas, before moving on to the next person."
+        time: "9h15"
+    - name: "Morning Tea Break"
+      time: "10h45"
+    - presentation:
+        title: "Part II"
+        description: "Break out groups based upon interests from speed dating activity."
+        time: "11h00"
+    - name: "Re-group and closing"
+      time: "12h00"
+
